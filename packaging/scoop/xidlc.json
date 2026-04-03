@@ -1,12 +1,16 @@
 {
-    "version": "0.32.0",
+    "version": "0.33.1",
     "description": "XIDL compiler and multi-target code generator",
     "homepage": "https://github.com/xidl/xidl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xidl/xidl/releases/download/v0.32.0/xidlc-x86_64-pc-windows-gnu.tar.gz",
-            "hash": "334711a87315f79f534c8b432a8c9d7a5fbee8cd6c9cb4e8a9e6756eeeec6de8"
+            "url": "https://github.com/xidl/xidl/releases/download/v0.33.1/xidlc-x86_64-pc-windows-msvc.zip",
+            "hash": "260b3a613e3cc82d858effd47819c8aaf8a196126b1ec1cb08a27ce296daf86d"
+        },
+        "arm64": {
+            "url": "https://github.com/xidl/xidl/releases/download/v0.33.1/xidlc-aarch64-pc-windows-msvc.zip",
+            "hash": "e8957de25ad3f26a0ef29412c773d02e3190a0770b4c2fcef0e56fe3abd8f7dc"
         }
     },
     "bin": "xidlc.exe",
@@ -17,7 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xidl/xidl/releases/download/v$version/xidlc-x86_64-pc-windows-gnu.tar.gz"
+                "url": "https://github.com/xidl/xidl/releases/download/v$version/xidlc-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/xidl/xidl/releases/download/v$version/xidlc-aarch64-pc-windows-msvc.zip"
             }
         }
     }
