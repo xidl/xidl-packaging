@@ -1,8 +1,8 @@
 class Xidlc < Formula
   desc "XIDL compiler and multi-target code generator"
   homepage "https://github.com/xidl/xidl"
-  url "https://github.com/xidl/xidl/archive/refs/tags/v0.100.0.tar.gz"
-  sha256 "3499ce59a3c7cf9f54874b887f2f1a668034531dd0b6fbf67c6bcaad168f3b5e"
+  url "https://github.com/xidl/xidl/archive/refs/tags/v0.100.1.tar.gz"
+  sha256 "b225d726e3b0372ae83f65ba56c8cd29baf283d84307b4e81a61ce06561a93ee"
   license "Apache-2.0"
   head "https://github.com/xidl/xidl.git", branch: "master"
 
