@@ -1,0 +1,25 @@
+PackageIdentifier: xidl.xidlc
+PackageVersion: 0.106.0
+Installers:
+  - Architecture: x64
+    InstallerType: zip
+    NestedInstallerType: portable
+    NestedInstallerFiles:
+      - RelativeFilePath: xidlc.exe
+        PortableCommandAlias: xidlc
+    Commands:
+      - xidlc
+    InstallerUrl: https://github.com/xidl/xidl/releases/download/v0.106.0/xidlc-x86_64-pc-windows-msvc.zip
+    InstallerSha256: 38DC877C1675FA532B32A11EAA1E0F6EE237599A3FFAAFD34728864DCCACD593
+  - Architecture: arm64
+    InstallerType: zip
+    NestedInstallerType: portable
+    NestedInstallerFiles:
+      - RelativeFilePath: xidlc.exe
+        PortableCommandAlias: xidlc
+    Commands:
+      - xidlc
+    InstallerUrl: https://github.com/xidl/xidl/releases/download/v0.106.0/xidlc-aarch64-pc-windows-msvc.zip
+    InstallerSha256: CDE13B266CC63AB66987A7CB9A09363C2710F637C7AF6B7CD6B94F513BE07370
+ManifestType: installer
+ManifestVersion: 1.12.0
