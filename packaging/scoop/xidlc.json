@@ -1,16 +1,16 @@
 {
-    "version": "0.106.0",
+    "version": "0.107.0",
     "description": "XIDL compiler and multi-target code generator",
     "homepage": "https://github.com/xidl/xidl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xidl/xidl/releases/download/v0.106.0/xidlc-x86_64-pc-windows-msvc.zip",
-            "hash": "38dc877c1675fa532b32a11eaa1e0f6ee237599a3ffaafd34728864dccacd593"
+            "url": "https://github.com/xidl/xidl/releases/download/v0.107.0/xidlc-x86_64-pc-windows-msvc.zip",
+            "hash": "aaf1223a884098fafb3ad8528aecd3104a956f116aee5348f2be01d2004ce9aa"
         },
         "arm64": {
-            "url": "https://github.com/xidl/xidl/releases/download/v0.106.0/xidlc-aarch64-pc-windows-msvc.zip",
-            "hash": "cde13b266cc63ab66987a7cb9a09363c2710f637c7af6b7cd6b94f513be07370"
+            "url": "https://github.com/xidl/xidl/releases/download/v0.107.0/xidlc-aarch64-pc-windows-msvc.zip",
+            "hash": "0b5590efb75e6ca6641776157e283ecd246a0090ccb21df1107a3879e5b40464"
         }
     },
     "bin": "xidlc.exe",
